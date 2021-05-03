@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TODO(6)
+    Review the following network security config file, which is referenced in this app's
+    Android Manifest (android:networkSecurityConfig attribute) . In this example, it blocks any
+    clear text traffic (e.g., http requests) to pages under the herokuapp domain.
+    Therefore the API endpoint url in MainActivityFragment needs to use https in order for the
+    requests via Volley to work.
+
+    Signpost link on Network Security Configs for more background information and an overview of
+    more possibilities: https://developer.android.com/training/articles/security-config
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">opentdb.com</domain>
+    </domain-config>
+</network-security-config>

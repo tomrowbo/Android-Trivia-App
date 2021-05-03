@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/correct_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            app:srcCompat="@drawable/ic_baseline_error_outline_24"
+            android:contentDescription="@string/row_answer" />
+
+    </LinearLayout>
+
+
+<!--    android:layout_toRightOf="@+id/correct_icon"-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/correct_icon">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:id="@+id/row_question"
+            />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Row_Answer"
+
+        android:textColor="@color/colorWhite"
+        android:id="@+id/row_correct_answer"
+        android:layout_marginTop="1dip" />
+<!--        android:layout_toRightOf="@+id/correct_icon"-->
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="@string/Row_Selected_Answer"
+        android:id="@+id/row_selected_answer" />
+<!--        android:layout_toRightOf="@+id/correct_icon"-->
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

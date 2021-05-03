@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/game_summary"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="@string/player_name_summary"
+            android:textSize="18sp"
+            android:id="@+id/player_name_end"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/score"
+            android:id="@+id/end_score"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/difficulty"
+            android:id="@+id/difficulty_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/answers_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/end_game_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="false" />
+</LinearLayout>

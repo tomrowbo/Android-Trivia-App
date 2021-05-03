@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_goes_here">Question goes here</string>
+    <string name="answer_a">A: Answer A</string>
+    <string name="answer_b">B: Answer B</string>
+    <string name="answer_c">C: Answer C</string>
+    <string name="answer_d">D: Answer D</string>
+    <string name="nav_open">Nav Drawer Open</string>
+    <string name="nav_closed">Nav Drawer Closed</string>
+    <string name="player_name">Player Name</string>
+    <string name="row_date_time">23/07/2021 21:41</string>
+    <string name="row_answer">Row Answer</string>
+    <string name="Question">1: Question Goes Here</string>
+    <string name="Row_Answer">Correct Answer: Correct Answer Here</string>
+    <string name="Row_Selected_Answer">You Selected: Selected Answer Here</string>
+    <string name="game_summary">Game Summary</string>
+    <string name="player_name_summary">Player name: Tom</string>
+    <string name="score">Score: 5/10</string>
+    <string name="difficulty">Difficulty: Easy</string>
+    <string name="answers_title">Answers</string>
+    <string name="game_settings">Game Settings</string>
+    <string name="player_name_hint">Player Name</string>
+    <string name="number_of_questions">Number Of Questions: 10</string>
+    <string name="difficulty_selection">Difficulty:</string>
+    <string name="any_difficulty">Any Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="create_game">Create Game</string>
+    <string name="play">Play</string>
+    <string name="recent_games">Recent Games</string>
+    <string name="quit">Quit</string>
+    <string name="question_number_title">Question 1</string>
+    <string name="error_fetching_questions">Error fetching questions...</string>
+    <string name="loading_questions">Loading questions...</string>
+    <string name="no_games_saved">No Games Saved Yet...</string>
+    <string name="start_a_new_game">Start a new game</string>
+    <string name="triva">Triva</string>
+</resources>
